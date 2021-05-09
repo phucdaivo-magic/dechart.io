@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dechart.index');
 });
 Route::get('/dechart.io', function () {
     return view('dechart.index');

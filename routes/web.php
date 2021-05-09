@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/dechart.io', function () {
+    return view('dechart.index');
+});
